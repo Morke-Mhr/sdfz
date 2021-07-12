@@ -1,0 +1,25 @@
+// 主体背景颜色
+$mainColor: #f2f2f2;
+// 通用背景色
+$generalColor: #ffffff;
+// 文本颜色
+$textColor: #999999;
+//通用边框颜色
+$generalBorder: #c4c4c4;
+// 阴影颜色 + 表格选中颜色
+$shadowColor: rgba(2, 51, 111, 0.2);
+// 表格内部td
+$tablebody: #ebf7f1;
+// 菜单展开宽度
+$sideBarWidth: 210px;
+
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  mainColor: $mainColor;
+  generalColor: $generalColor;
+  textColor: $textColor;
+  generalBorder: $generalBorder;
+  shadowColor: $shadowColor;
+  tablebody: $tablebody;
+  sideBarWidth: $sideBarWidth;
+}
